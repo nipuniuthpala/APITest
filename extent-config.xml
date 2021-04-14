@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITest" verbose="10"  parallel="instances">
+    <listeners>
+        <listener class-name="listners.Listeners"/>
+        <listener class-name="listners.ExtentReporterNG"/>
+
+    </listeners>
+
+    <test name="test" >
+        <classes>
+            <class name="features.TestSiteRunner"/>
+        </classes>
+    </test>
+</suite>
