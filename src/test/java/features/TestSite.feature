@@ -1,4 +1,4 @@
-Feature: Test the site after login and order item and then update personal information.
+Feature: Test the APIs and check the posts comments for the particular user is correct.
 
   Scenario: Validate user can get the  correct user details
     Given user invoke the api for users
